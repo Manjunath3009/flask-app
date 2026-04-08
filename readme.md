@@ -31,12 +31,20 @@ py app.py
 -@app.route("/create", methods=["POST"])
 
 ## GIThub deploy
--- Create .gitignore file to ignore the mentioned file  to push into github
+```
+-- Create gitignore file to ignore the mentioned file  to push into github
 -- cmd: git init -- to add git the your project dicrectory
 -- cmd: git add . -- add the file to git package that are ready to push into github
 -- cmd: git commit -m "Initial commit - Flask app"
 -- cmd: git remote add origin https://github.com/your-username/flask-app.git
 -- ex: git remote add origin https://github.com/Manjunath3009/flask-app.git
+
+-- remove file added from repo
+cmd: git rm -r --cached venv
+cmd: git commit -m "Removed venv from repository"
+cmd: git push
+
+```
 
 ## POSTMAN Usage
 -- After running python apiserver.py command , a running localhost http link will be generated, used that link in POSTMAN application as  "POST" method 
