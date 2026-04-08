@@ -44,13 +44,20 @@ cmd: git rm -r --cached venv
 cmd: git commit -m "Removed venv from repository"
 cmd: git push
 
+-- push when update readme commands
+cmd: git add readme.md
+cmd: git commit -m "Updated README"
+cmd: git push
+
 ```
 
 ## POSTMAN Usage
+```
 -- After running python apiserver.py command , a running localhost http link will be generated, used that link in POSTMAN application as  "POST" method 
 -- Go to Body , select type raw and enter your request in json format
 -- Your response will be availble in the response window of POSTMAN
 
+```
 ## Deploy to AWS Cloud 
 
 Login to your AWS Cloud
