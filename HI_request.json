@@ -1,0 +1,279 @@
+{
+	"bearing_system": {
+		"k_de_radial_vibration_overall_x": {
+			"actual_value": 9
+		},
+		"k_de_radial_vibration_overall_y": {
+			"actual_value": 11
+		},
+		"k_de_radial_bearing_temperature": {
+			"actual_value": 197
+		},
+		"k_nde_radial_vibration_overall_x": {
+			"actual_value": 15
+		},
+		"k_nde_radial_vibration_overall_y": {
+			"actual_value": 7
+		},
+		"k_nde_radial_bearing_temperature": {
+			"actual_value": 57
+		},
+		"thrust_bearing_active_side_gap": {
+			"actual_value": 5
+		},
+		"thrust_bearing_inactive_side_gap": {
+			"actual_value": 7
+		},
+		"k_thrust_bearing_temperature_active_side": {
+			"actual_value": 87
+		},
+		"k_thrust_bearing_temperature_inactive_side": {
+			"actual_value": 5
+		},
+		"lo_header_pressure": {
+			"actual_value": 56
+		},
+		"lo_header_temperature": {
+			"actual_value": 67
+		},
+		"lo_viscosity": {
+			"actual_value": 97
+		},
+		"lo_tan": {
+			"actual_value": 78
+		}
+	},
+	"lo_system": {
+		"lo_header_pressure": {
+			"actual_value": 56
+		},
+		"lo_header_temperature": {
+			"actual_value": 97
+		},
+		"oil_filter_dp": {
+			"actual_value": 96
+		},
+		"lo_viscosity": {
+			"actual_value": 97
+		},
+		"lo_tan": {
+			"actual_value": 78
+		},
+		"lo_composition_analysis": {
+			"actual_value": 44
+		},
+		"oil_tank_level": {
+			"actual_value": 99
+		},
+		"oil_tank_temperature": {
+			"actual_value": 66
+		},
+		"lo_pumps_discharge_pressure": {
+			"actual_value": 37
+		},
+		"lube_oil_pcv_position": {
+			"actual_value": 93
+		},
+		"lube_oil_return_flow_rate": {
+			"actual_value": 120
+		},
+		"lo_cooler_bypass_valve_tcv_position": {
+			"actual_value": 49
+		},
+		"delta_temperature_lo_tank_vs_lo_cooler_discharge": {
+			"actual_value": 87
+		},
+		"main_lube_oil_pump_current_run_signal": {
+			"actual_value": false
+		},
+		"aux_lube_oil_pump_current_run_signal": {
+			"actual_value": false
+		},
+		"lube_oil_tank_heater_run_signal": {
+			"actual_value": false
+		},
+		"air_cooler_fan_1_run_status": {
+			"actual_value": false
+		},
+		"air_cooler_fan_2_run_status": {
+			"actual_value": false
+		}
+	},
+	"performance": {
+		"suction_scrubber_level": {
+			"actual_value": 64
+		},
+		"interstage_cooler_gas_outlet_temperature": {
+			"actual_value": 33
+		},
+		"interstage_cooler_temp_control_valve_opening": {
+			"actual_value": 44
+		},
+		"interstage_separator_level": {
+			"actual_value": 75
+		},
+		"suction_flow": {
+			"actual_value": 54
+		},
+		"discharge_flow": {
+			"actual_value": 43
+		},
+		"head_deviation_actual_expected": {
+			"actual_value": 34
+		},
+		"efficiency_deviation_expected_actual": {
+			"actual_value": 44
+		},
+		"compressor_discharge_temperature": {
+			"actual_value": 34
+		},
+		"igv_angle_actuator_position": {
+			"actual_value": 54
+		},
+		"suction_throttling_valve_percent": {
+			"actual_value": 32
+		},
+		"compressor_inlet_temperature": {
+			"actual_value": 11
+		},
+		"compressor_inlet_pressure": {
+			"actual_value": 44
+		},
+		"compressor_discharge_pressure": {
+			"actual_value": 76
+		},
+		"k_de_radial_vibration_overall_x": {
+			"actual_value": 20
+		},
+		"k_nde_radial_vibration_overall_x": {
+			"actual_value": 21
+		},
+		"inlet_filter_dp": {
+			"actual_value": 32
+		}
+	},
+	"transmission": {
+		"lss_de_radial_vibration_overall_x": {
+			"actual_value": 16
+		},
+		"lss_de_radial_vibration_overall_y": {
+			"actual_value": 7
+		},
+		"lss_nde_radial_vibration_overall_x": {
+			"actual_value": 8
+		},
+		"lss_nde_radial_vibration_overall_y": {
+			"actual_value": 9
+		},
+		"lss_axial_temperature": {
+			"actual_value": 10
+		},
+		"hss_de_radial_vibration_overall_x": {
+			"actual_value": 21
+		},
+		"hss_de_radial_vibration_overall_y": {
+			"actual_value": 12
+		},
+		"hss_nde_radial_vibration_overall_x": {
+			"actual_value": 13
+		},
+		"hss_nde_radial_vibration_overall_y": {
+			"actual_value": 14
+		},
+		"lss_nde_radial_bearing_temperature_a": {
+			"actual_value": 15
+		},
+		"lss_nde_radial_bearing_temperature_b": {
+			"actual_value": 16
+		},
+		"lss_de_radial_bearing_temperature_a": {
+			"actual_value": 17
+		},
+		"lss_de_radial_bearing_temperature_b": {
+			"actual_value": 18
+		},
+		"hss_nde_radial_bearing_temperature_a": {
+			"actual_value": 19
+		},
+		"hss_nde_radial_bearing_temperature_b": {
+			"actual_value": 20
+		},
+		"hss_de_radial_bearing_temperature_a": {
+			"actual_value": 21
+		},
+		"hss_de_radial_bearing_temperature_b": {
+			"actual_value": 22
+		},
+		"lss_de_casing_vibration": {
+			"actual_value": 23
+		},
+		"lss_nde_casing_vibration": {
+			"actual_value": 24
+		},
+		"hss_de_casing_vibration": {
+			"actual_value": 25
+		},
+		"hss_nde_casing_vibration": {
+			"actual_value": 26
+		},
+		"lss_thrust_bearing_active_side_gap": {
+			"actual_value": 37
+		},
+		"lss_thrust_bearing_inactive_side_gap": {
+			"actual_value": 28
+		},
+		"lss_thrust_bearing_active_side_temp": {
+			"actual_value": 29
+		},
+		"lss_thrust_bearing_inactive_side_temp": {
+			"actual_value": 30
+		},
+		"hss_thrust_bearing_active_side_gap": {
+			"actual_value": 31
+		},
+		"hss_thrust_bearing_inactive_side_gap": {
+			"actual_value": 32
+		},
+		"hss_thrust_bearing_active_side_temp": {
+			"actual_value": 33
+		},
+		"hss_thrust_bearing_inactive_side_temp": {
+			"actual_value": 34
+		}
+	},
+	"dry_gas_seal_system": {
+		"reference_line_dp": {
+			"actual_value": 16
+		},
+		"primary_seal_gas_supply_temperature": {
+			"actual_value": 17
+		},
+		"primary_seal_gas_supply_pressure_flow": {
+			"actual_value": 8
+		},
+		"dp_over_seal_gas_filter": {
+			"actual_value": 19
+		},
+		"primary_vent_pressure_flow": {
+			"actual_value": 10
+		},
+		"secondary_vent_pressure_flow": {
+			"actual_value": 21
+		},
+		"buffer_gas_supply_pressure_flow": {
+			"actual_value": 22
+		},
+		"buffer_gas_filter_dp": {
+			"actual_value": 13
+		},
+		"pdcv_valve_opening": {
+			"actual_value": 14
+		},
+		"secondary_supply_pcv_opening": {
+			"actual_value": 15
+		},
+		"buffer_gas_pcv_opening": {
+			"actual_value": 16
+		}
+	}
+}

@@ -1,0 +1,314 @@
+#Function link: https://function.utthunga.io/15f8ffb7-03e0-4c1a-86b6-b2f5e41c60f3/8b98f152-7df7-44a1-bb9b-d617121e5d20
+
+#KPIs REQUEST AND  RESPONSE(SINGLE KPI ACCESS PER REQUEST):
+
+
+#Pressure Ratio INPUT REQUEST:
+
+
+#Pressure Ratio OUTPUT RESPONSE:
+
+{
+    "result": [
+        {
+            "values": {
+                "pressure_ratio_design": 1,
+                "pressure_ratio_operating": 1.4,
+                "pressure_ratio_deviation": 40.0
+            },
+            "units": {
+                "pressure_ratio_design": "",
+                "pressure_ratio_operating": "",
+                "pressure_ratio_deviation": "%"
+            }
+        }
+    ],
+    "error": ""
+}
+
+
+#Polytropic Efficiency INPUT REQUEST:
+
+{
+		"request": "polytropic_efficiency",
+		"parameters": {
+			"Ki": 7,
+			"Ko": 5,
+			"n" : 7,
+			"design": 1
+		},
+		"units": {
+			"Ki": "kgf/cm²",
+			"Ko": "kgf/cm²",
+			"n" : "",
+			"design": "PSI"
+		}
+	}
+
+#Polytropic Efficiency OUTPUT RESPONSE:
+
+{
+    "result": [
+        {
+            "values": {
+                "polytropic_efficiency_design": 1,
+                "polytropic_efficiency_operating": 97.222,
+                "polytropic_efficiency_deviation": 9622.222
+            },
+            "units": {
+                "polytropic_efficiency_design": "%",
+                "polytropic_efficiency_operating": "%",
+                "polytropic_efficiency_deviation": "%"
+            }
+        }
+    ],
+    "error": ""
+}
+
+#Shaft Power INPUT REQUEST:
+
+{
+		"request": "shaft_power",
+		"parameters": {
+			"Fair": 744,
+			"H1": 2,
+			"H2": 59,
+			"Nmech": 5,
+			"design": 2.4
+		},
+		"units": {
+			"Fair": "kg/hr",
+			"H1": "",
+			"H2": "",
+			"Nmech": "",
+			"design": "%"
+		}
+}	
+
+
+#Shaft Power OUTPUT RESPONSE:
+
+{
+    "result": [
+        {
+            "values": {
+                "shaft_power_design": 2.4,
+                "shaft_power_operating": 2.356,
+                "shaft_power_deviation": 1.833
+            },
+            "units": {
+                "shaft_power_design": "kw",
+                "shaft_power_operating": "kw",
+                "shaft_power_deviation": "%"
+            }
+        }
+    ],
+    "error": ""
+}
+
+
+#Surge Margin INPUT REQUEST:
+
+{
+	"request": "surge_margin",
+	"parameters": {
+		"Current_flow": 7,
+		"Surge_inline_flow": 5,
+		"design": 123
+	},
+	"units": {
+		"Current_flow": "CFM",
+		"Surge_inline_flow": "CFM",
+		"design": "%"
+	}
+}
+
+#Surge Margin OUTPUT RESPONSE:
+
+{
+    "result": [
+        {
+            "values": {
+                "surge_margin_design": 123,
+                "surge_margin_operating": 28.571,
+                "surge_margin_deviation": 76.771
+            },
+            "units": {
+                "surge_margin_design": "%",
+                "surge_margin_operating": "%",
+                "surge_margin_deviation": "%"
+            }
+        }
+    ],
+    "error": ""
+}
+
+#Power Consumption INPUT REQUEST:
+
+{
+	"request": "power_consumption",
+	"parameters": {
+		"V": 73,
+		"I": 53,
+		"Power_factor": 0.9,
+		"design": 6.1
+	},
+	"units": {
+		"V": "CPM",
+		"I": "CPM",
+		"Power_factor": "",
+		"design": "%"
+	}
+}
+
+#Power Consumption OUTPUT RESPONSE:
+
+{
+    "result": [
+        {
+            "values": {
+                "power_consumption_design": 6.1,
+                "power_consumption_operating": 6.031,
+                "power_consumption_deviation": 1.128
+            },
+            "units": {
+                "power_consumption_design": "kw",
+                "power_consumption_operating": "kw",
+                "power_consumption_deviation": "%"
+            }
+        }
+    ],
+    "error": ""
+}
+
+
+#Polytropic Exponent INPUT REQUEST:
+
+{
+	"request": "polytropic_exponent",
+	"parameters": {
+		"Po": 5,
+		"Pi": 71,
+		"Rowo": 6,
+		"Rowi": 9,
+		"design": 6.4
+	},
+	"units": {
+		"Po": "kgf/cm²",
+		"Pi": "kgf/cm²",
+		"Rowo": "",
+		"Rowi": "",
+		"design": ""
+	}
+}
+
+#Polytropic Exponent OUTPUT REQUEST:
+
+{
+    "result": [
+        {
+            "values": {
+                "polytropic_exponent_design": 6.4,
+                "polytropic_exponent_operating": 6.544,
+                "polytropic_exponent_deviation": 2.245
+            },
+            "units": {
+                "polytropic_exponent_design": "",
+                "polytropic_exponent_operating": "",
+                "polytropic_exponent_deviation": "%"
+            }
+        }
+    ],
+    "error": ""
+}
+
+#Adiabatic Efficiency INPUT REQUEST:
+
+{
+	"request": "adiabatic_efficiency",
+	"parameters": {
+		"Ki": 54,
+		"Ko": 7,
+		"Pi": 76,
+		"Po": 8,
+		"n": 8,
+		"design": 100
+	},
+	"units": {
+		"Ki": "",
+		"Ko": "",
+		"Pi": "kgf/cm²",
+		"Po": "kgf/cm²",
+		"n": "",
+		"design": ""
+	}
+}
+
+#Adiabatic Efficiency OUTPUT RESPONSE:
+
+{
+    "result": [
+        {
+            "values": {
+                "adiabatic_efficiency_design": 100,
+                "adiabatic_efficiency_operating": 103.038,
+                "adiabatic_efficiency_deviation": 3.038
+            },
+            "units": {
+                "adiabatic_efficiency_design": "%",
+                "adiabatic_efficiency_operating": "%",
+                "adiabatic_efficiency_deviation": "%"
+            }
+        }
+    ],
+    "error": ""
+}
+
+	
+#Polytropic Head INPUT REQUEST:
+
+{
+	"request": "polytropic_head",
+	"parameters": {
+		"Zi": 54,
+		"Zo": 7,
+		"R": 6,
+		"Mw": 96,
+		"Po": 3,
+		"Pi": 4,
+		"Ti": 4,
+		"n": 6,
+		"design": 125
+	},
+	"units": {
+		"Zi": "",
+		"Zo": "",
+		"R": "",
+		"Mw": "",
+		"Po": "kgf/cm²",
+		"Pi": "kgf/cm²",
+		"Ti": "°F",
+		"n": "",
+		"design": "%"
+	}
+}
+
+#Polytropic Head OUTPUT RESPONSE:
+
+{
+    "result": [
+        {
+            "values": {
+                "polytropic_head_design": 125,
+                "polytropic_head_operating": 125.533,
+                "polytropic_head_deviation": 0.426
+            },
+            "units": {
+                "polytropic_head_design": "kj/kg",
+                "polytropic_head_operating": "kj/kg",
+                "polytropic_head_deviation": "%"
+            }
+        }
+    ],
+    "error": ""
+}

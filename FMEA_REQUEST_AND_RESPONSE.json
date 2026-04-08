@@ -1,0 +1,458 @@
+#Function link: https://function.utthunga.io/15f8ffb7-03e0-4c1a-86b6-b2f5e41c60f3/0ec1d902-484b-4778-a3a3-2f5e9693e88f
+
+#FMEA INPUT REQUEST:
+
+{
+	"bearing_system": {
+		"k_de_radial_vibration_overall_x": {
+			"actual_value": 9,
+			"min_value": 3,
+			"max_value": 7
+		},
+		"k_de_radial_vibration_overall_y": {
+			"actual_value": 11,
+			"min_value": 5,
+			"max_value": 9
+		},
+		"k_de_radial_bearing_temperature": {
+			"actual_value": 197,
+			"min_value": 90,
+			"max_value": 100
+		},
+		"k_nde_radial_vibration_overall_x": {
+			"actual_value": 15,
+			"min_value": 3,
+			"max_value": 7
+		},
+		"k_nde_radial_vibration_overall_y": {
+			"actual_value": 7,
+			"min_value": 5,
+			"max_value": 9
+		},
+		"k_nde_radial_bearing_temperature": {
+			"actual_value": 57,
+			"min_value": 20,
+			"max_value": 30
+		},
+		"thrust_bearing_active_side_gap": {
+			"actual_value": 5,
+			"min_value": 30,
+			"max_value": 70
+		},
+		"thrust_bearing_inactive_side_gap": {
+			"actual_value": 7,
+			"min_value": 59,
+			"max_value": 99
+		},
+		"k_thrust_bearing_temperature_active_side": {
+			"actual_value": 87,
+			"min_value": 80,
+			"max_value": 90
+		},
+		"k_thrust_bearing_temperature_inactive_side": {
+			"actual_value": 5,
+			"min_value": 3,
+			"max_value": 7
+		},
+		"lo_header_pressure": {
+			"actual_value": 56,
+			"min_value": 40,
+			"max_value": 50
+		},
+		"lo_header_temperature": {
+			"actual_value": 67,
+			"min_value": 60,
+			"max_value": 70
+		},
+		"lo_viscosity": {
+			"actual_value": 97,
+			"min_value": 80,
+			"max_value": 90
+		},
+		"lo_tan": {
+			"actual_value": 78,
+			"min_value": 70,
+			"max_value": 80
+		}
+	},
+	"lo_system": {
+		"lo_header_pressure": {
+			"actual_value": 56,
+			"min_value": 40,
+			"max_value": 50
+		},
+		"lo_header_temperature": {
+			"actual_value": 97,
+			"min_value": 80,
+			"max_value": 95
+		},
+		"oil_filter_dp": {
+			"actual_value": 96,
+			"min_value": 70,
+			"max_value": 80
+		},
+		"lo_viscosity": {
+			"actual_value": 97,
+			"min_value": 80,
+			"max_value": 90
+		},
+		"lo_tan": {
+			"actual_value": 78,
+			"min_value": 70,
+			"max_value": 80
+		},
+		"lo_composition_analysis": {
+			"actual_value": 44,
+			"min_value": 40,
+			"max_value": 48
+		},
+		"oil_tank_level": {
+			"actual_value": 99,
+			"min_value": 95,
+			"max_value": 100
+		},
+		"oil_tank_temperature": {
+			"actual_value": 66,
+			"min_value": 60,
+			"max_value": 70
+		},
+		"lo_pumps_discharge_pressure": {
+			"actual_value": 37,
+			"min_value": 30,
+			"max_value": 40
+		},
+		"lube_oil_pcv_position": {
+			"actual_value": 93,
+			"min_value": 30,
+			"max_value": 35
+		},
+		"lube_oil_return_flow_rate": {
+			"actual_value": 120,
+			"min_value": 110,
+			"max_value": 130
+		},
+		"lo_cooler_bypass_valve_tcv_position": {
+			"actual_value": 49,
+			"min_value": 45,
+			"max_value": 55
+		},
+		"delta_temperature_lo_tank_vs_lo_cooler_discharge": {
+			"actual_value": 87,
+			"min_value": 60,
+			"max_value": 70
+		},
+		"main_lube_oil_pump_current_run_signal": {
+			"actual_value": false
+		},
+		"aux_lube_oil_pump_current_run_signal": {
+			"actual_value": false
+		},
+		"lube_oil_tank_heater_run_signal": {
+			"actual_value": false
+		},
+		"air_cooler_fan_1_run_status": {
+			"actual_value": false
+		},
+		"air_cooler_fan_2_run_status": {
+			"actual_value": false
+		}
+	},
+	"performance": {
+		"suction_scrubber_level": {
+			"actual_value": 64,
+			"min_value": 60,
+			"max_value": 70
+		},
+		"interstage_cooler_gas_outlet_temperature": {
+			"actual_value": 33,
+			"min_value": 30,
+			"max_value": 35
+		},
+		"interstage_cooler_temp_control_valve_opening": {
+			"actual_value": 44,
+			"min_value": 40,
+			"max_value": 48
+		},
+		"interstage_separator_level": {
+			"actual_value": 75,
+			"min_value": 50,
+			"max_value": 60
+		},
+		"suction_flow": {
+			"actual_value": 54,
+			"min_value": 40,
+			"max_value": 48
+		},
+		"discharge_flow": {
+			"actual_value": 43,
+			"min_value": 40,
+			"max_value": 45
+		},
+		"head_deviation_actual_expected": {
+			"actual_value": 34,
+			"min_value": 30,
+			"max_value": 38
+		},
+		"efficiency_deviation_expected_actual": {
+			"actual_value": 44,
+			"min_value": 30,
+			"max_value": 38
+		},
+		"compressor_discharge_temperature": {
+			"actual_value": 34,
+			"min_value": 30,
+			"max_value": 38
+		},
+		"igv_angle_actuator_position": {
+			"actual_value": 54,
+			"min_value": 50,
+			"max_value": 60
+		},
+		"suction_throttling_valve_percent": {
+			"actual_value": 32,
+			"min_value": 30,
+			"max_value": 35
+		},
+		"compressor_inlet_temperature": {
+			"actual_value": 11,
+			"min_value": 10,
+			"max_value": 15
+		},
+		"compressor_inlet_pressure": {
+			"actual_value": 44,
+			"min_value": 40,
+			"max_value": 48
+		},
+		"compressor_discharge_pressure": {
+			"actual_value": 76,
+			"min_value": 70,
+			"max_value": 80
+		},
+		"k_de_radial_vibration_overall_x": {
+			"actual_value": 20,
+			"min_value": 15,
+			"max_value": 25
+		},
+		"k_nde_radial_vibration_overall_x": {
+			"actual_value": 21,
+			"min_value": 18,
+			"max_value": 24
+		},
+		"inlet_filter_dp": {
+			"actual_value": 32,
+			"min_value": 20,
+			"max_value": 25
+		}
+	},
+	"transmission": {
+		"lss_de_radial_vibration_overall_x": {
+			"actual_value": 16,
+			"min_value": 5,
+			"max_value": 8
+		},
+		"lss_de_radial_vibration_overall_y": {
+			"actual_value": 7,
+			"min_value": 5,
+			"max_value": 9
+		},
+		"lss_nde_radial_vibration_overall_x": {
+			"actual_value": 8,
+			"min_value": 6,
+			"max_value": 10
+		},
+		"lss_nde_radial_vibration_overall_y": {
+			"actual_value": 9,
+			"min_value": 7,
+			"max_value": 11
+		},
+		"lss_axial_temperature": {
+			"actual_value": 10,
+			"min_value": 8,
+			"max_value": 12
+		},
+		"hss_de_radial_vibration_overall_x": {
+			"actual_value": 21,
+			"min_value": 9,
+			"max_value": 13
+		},
+		"hss_de_radial_vibration_overall_y": {
+			"actual_value": 12,
+			"min_value": 10,
+			"max_value": 14
+		},
+		"hss_nde_radial_vibration_overall_x": {
+			"actual_value": 13,
+			"min_value": 11,
+			"max_value": 15
+		},
+		"hss_nde_radial_vibration_overall_y": {
+			"actual_value": 14,
+			"min_value": 12,
+			"max_value": 16
+		},
+		"lss_nde_radial_bearing_temperature_a": {
+			"actual_value": 15,
+			"min_value": 13,
+			"max_value": 17
+		},
+		"lss_nde_radial_bearing_temperature_b": {
+			"actual_value": 16,
+			"min_value": 14,
+			"max_value": 18
+		},
+		"lss_de_radial_bearing_temperature_a": {
+			"actual_value": 17,
+			"min_value": 15,
+			"max_value": 19
+		},
+		"lss_de_radial_bearing_temperature_b": {
+			"actual_value": 18,
+			"min_value": 16,
+			"max_value": 20
+		},
+		"hss_nde_radial_bearing_temperature_a": {
+			"actual_value": 19,
+			"min_value": 17,
+			"max_value": 21
+		},
+		"hss_nde_radial_bearing_temperature_b": {
+			"actual_value": 20,
+			"min_value": 18,
+			"max_value": 22
+		},
+		"hss_de_radial_bearing_temperature_a": {
+			"actual_value": 21,
+			"min_value": 19,
+			"max_value": 23
+		},
+		"hss_de_radial_bearing_temperature_b": {
+			"actual_value": 22,
+			"min_value": 20,
+			"max_value": 24
+		},
+		"lss_de_casing_vibration": {
+			"actual_value": 23,
+			"min_value": 21,
+			"max_value": 25
+		},
+		"lss_nde_casing_vibration": {
+			"actual_value": 24,
+			"min_value": 22,
+			"max_value": 26
+		},
+		"hss_de_casing_vibration": {
+			"actual_value": 25,
+			"min_value": 23,
+			"max_value": 27
+		},
+		"hss_nde_casing_vibration": {
+			"actual_value": 26,
+			"min_value": 24,
+			"max_value": 28
+		},
+		"lss_thrust_bearing_active_side_gap": {
+			"actual_value": 37,
+			"min_value": 25,
+			"max_value": 29
+		},
+		"lss_thrust_bearing_inactive_side_gap": {
+			"actual_value": 28,
+			"min_value": 26,
+			"max_value": 30
+		},
+		"lss_thrust_bearing_active_side_temp": {
+			"actual_value": 29,
+			"min_value": 27,
+			"max_value": 31
+		},
+		"lss_thrust_bearing_inactive_side_temp": {
+			"actual_value": 30,
+			"min_value": 28,
+			"max_value": 32
+		},
+		"hss_thrust_bearing_active_side_gap": {
+			"actual_value": 31,
+			"min_value": 29,
+			"max_value": 33
+		},
+		"hss_thrust_bearing_inactive_side_gap": {
+			"actual_value": 32,
+			"min_value": 30,
+			"max_value": 34
+		},
+		"hss_thrust_bearing_active_side_temp": {
+			"actual_value": 33,
+			"min_value": 31,
+			"max_value": 35
+		},
+		"hss_thrust_bearing_inactive_side_temp": {
+			"actual_value": 34,
+			"min_value": 32,
+			"max_value": 36
+		}
+	},
+	"dry_gas_seal_system": {
+		"reference_line_dp": {
+			"actual_value": 16,
+			"min_value": 5,
+			"max_value": 8
+		},
+		"primary_seal_gas_supply_temperature": {
+			"actual_value": 17,
+			"min_value": 5,
+			"max_value": 9
+		},
+		"primary_seal_gas_supply_pressure_flow": {
+			"actual_value": 8,
+			"min_value": 7,
+			"max_value": 10
+		},
+		"dp_over_seal_gas_filter": {
+			"actual_value": 19,
+			"min_value": 8,
+			"max_value": 11
+		},
+		"primary_vent_pressure_flow": {
+			"actual_value": 10,
+			"min_value": 9,
+			"max_value": 12
+		},
+		"secondary_vent_pressure_flow": {
+			"actual_value": 21,
+			"min_value": 20,
+			"max_value": 22
+		},
+		"buffer_gas_supply_pressure_flow": {
+			"actual_value": 22,
+			"min_value": 10,
+			"max_value": 14
+		},
+		"buffer_gas_filter_dp": {
+			"actual_value": 13,
+			"min_value": 11,
+			"max_value": 15
+		},
+		"pdcv_valve_opening": {
+			"actual_value": 14,
+			"min_value": 12,
+			"max_value": 16
+		},
+		"secondary_supply_pcv_opening": {
+			"actual_value": 15,
+			"min_value": 13,
+			"max_value": 17
+		},
+		"buffer_gas_pcv_opening": {
+			"actual_value": 16,
+			"min_value": 14,
+			"max_value": 18
+		}
+	}
+}
+
+#FMEA OUTPUT RESPONSE:
+
+{
+    "result": "[{'bearing_system': {'fault_id': 'RTR-Mech-4', 'fault_name': 'Rotor Anomaly', 'fault_status': 'Active', 'severity': 'Important', 'causes': 'Unbalance.Misalighment.Both DE and NDE bearings damage Looseness.Coulping damage.Electrical discharge.Sensor bias or drift.', 'effects': 'High Vibration,seal leakage, overload, rotor damage, blade casing rubbing, catastrophic damage', 'actions': 'Check the calibration of sensor.Investigate with high frequency vibration analysis. Check Carbon brush integrity.Check magnetism of the rotor.Check rotor unbalance, misalignment. Looseness.Check coupling integrity.Check foundation bolt integrity.Check both bearings for clearance and pad wear etc.', 'symptoms': {'k_de_radial_vibration_overall_x': 'High', 'k_de_radial_vibration_overall_y': 'High', 'k_nde_radial_vibration_overall_x': 'High', 'k_nde_radial_vibration_overall_y': 'Normal'}}}, {'bearing_system': {'fault_id': 'BRG-LO-1', 'fault_name': 'Thrust/Radial Bearing Anomly due to Lube Oil Pressure', 'fault_status': 'Active', 'severity': 'Serious', 'causes': 'Loss Of lube Oil Cooling,Sensor bias or drift', 'effects': 'Overload. Babbitt wear/ failure. Oil film degradation. Bearing damage. Rotor damage. Displacement alarm/trip.', 'actions': 'Check the calibarion of sensor.Check cooling water supply pressure. Check bypass control valve. Open coolers and stabilise temperature.Check cooling water pumps for blockages, ensure strainer is clean, If malfunction of cooler is suspected, isolate and inspect it. Line walk the system to check for leaks.', 'symptoms': {'k_de_radial_vibration_overall_x': 'High', 'k_de_radial_vibration_overall_y': 'High', 'k_de_radial_bearing_temperature': 'High', 'k_nde_radial_vibration_overall_x': 'High', 'k_nde_radial_vibration_overall_y': 'Normal', 'k_nde_radial_bearing_temperature': 'High', 'thrust_bearing_active_side_gap': 'Low', 'k_thrust_bearing_temperature_active_side': 'Normal', 'k_thrust_bearing_temperature_inactive_side': 'Normal', 'lo_header_pressure': 'High'}}}, {'bearing_system': {'fault_id': 'BRG-LO-2', 'fault_name': 'Thrust/Radial Bearing Anomly due to Lube Oil Temperature', 'fault_status': 'Inactive'}}, {'bearing_system': {'fault_id': 'BRG-LOQ-3', 'fault_name': 'Thrust/Radial Bearing Anomly due to Lube Oil Quality', 'fault_status': 'Active', 'severity': 'Medium', 'causes': 'Loss of Lube Oil Quality, Oil contamination, Oil Foaming', 'effects': 'High vibration.    Increase of brg clearance.Seal leakage. Overload Babbitt failure Bearing/rotor damage Oil film instability', 'actions': 'Check oil tank for free water by draining 1L into a sample bottle. Switch cooler if water contamination.Take an oil sample and check water content, viscosity, TAN. Check no breather caps or man covers have been removed and left open to allow debris into the tank. Recondition or replace oil.', 'symptoms': {'k_de_radial_vibration_overall_x': 'High', 'k_de_radial_vibration_overall_y': 'High', 'k_de_radial_bearing_temperature': 'High', 'k_nde_radial_vibration_overall_x': 'High', 'k_nde_radial_vibration_overall_y': 'Normal', 'k_nde_radial_bearing_temperature': 'High', 'thrust_bearing_active_side_gap': 'Low', 'k_thrust_bearing_temperature_active_side': 'Normal', 'k_thrust_bearing_temperature_inactive_side': 'Normal', 'lo_viscosity': 'High'}}}, {'bearing_system': {'fault_id': 'BRG-Mech-1', 'fault_name': 'Thrust Bearing Anomly due to Mech Issue', 'fault_status': 'Active', 'severity': 'Important', 'causes': 'Multiple surge events Pad overload due to misalignment. Liquid slugs in inlet scrubber Balance piston wear Balance line blockage Electrical dischargePad pivot wear, Axial float change, Coupling issue (gear coulping lock or diaphgram column prestretch)Sensor bias or drift', 'effects': 'High vibration. Increase of brg clearance.Seal leakage. Overload Babbitt failure Bearing/rotor damage Oil film instability', 'actions': 'Check calibration of sensor.Assess likely cause and time to trip if intervention not possible. Intervention options. reduce thrust load. Ensure parts availability.Check axial vibration trends to establish if the machine  has surged and potentially damaged/wiped the pads.If required inspect the thrust pads and collar to check for damage / wiping.Carry out a bump check to establish what float is in the machine, compare to previous overhaul report for measurement. Check the gear coupling/pre-strech diaphgram coupling ', 'symptoms': {'k_de_radial_vibration_overall_x': 'High', 'k_de_radial_vibration_overall_y': 'High', 'k_de_radial_bearing_temperature': 'High', 'k_nde_radial_vibration_overall_x': 'High', 'k_nde_radial_vibration_overall_y': 'Normal', 'k_nde_radial_bearing_temperature': 'High', 'thrust_bearing_active_side_gap': 'Low', 'thrust_bearing_inactive_side_gap': 'Low', 'k_thrust_bearing_temperature_active_side': 'Normal', 'k_thrust_bearing_temperature_inactive_side': 'Normal', 'lo_header_pressure': 'High', 'lo_header_temperature': 'Normal', 'lo_viscosity': 'High'}}}, {'bearing_system': {'fault_id': 'BRG-Mech-2', 'fault_name': 'DE Radial Bearing Anomly due to Mech Issue', 'fault_status': 'Inactive'}}, {'bearing_system': {'fault_id': 'BRG-Mech-3', 'fault_name': 'NDE Radial Bearing Anomly due to Mech Issue', 'fault_status': 'Inactive'}}, {'lo_system': {'fault_id': 'LOQ-1', 'fault_name': 'Loss of lube oil quality', 'fault_status': 'Active', 'severity': 'Medium', 'causes': 'Oil foaming. Water contamination. LO degradation. Solid particles contamination. Hydrocarbon contamination. Leaking cooler', 'effects': 'Oil viscosity drop/rise. Oil film instability. Bearing corrosion. Bearing erosion. Gear damage', 'actions': 'Check oil tank for free water by draining 1L into a sample bottle. Switch cooler if water contamination. Take an oil sample and check water content, viscosity, TAN. Check no breather caps or man covers have been removed and left open to allow debris into the tank. Do filter cleaning. Recondition or replace oil.', 'symptoms': {'lo_viscosity': 'High', 'lo_tan': 'Normal', 'lo_composition_analysis': 'Normal'}}}, {'lo_system': {'fault_id': 'LOF-2', 'fault_name': 'Lube Oil Filter Anomaly.', 'fault_status': 'Active', 'severity': 'Serious', 'causes': 'Lube Oil Dp High, Filter Clogging/Jam. Sensor bias or drift.', 'effects': 'Bearing overheating. Bearing seizure. Babbitt failure. Journal damage. Low lube oil pressure.', 'actions': 'Check filter DP, changeover and clean/replace the standby filter. Check the Filter DP transmitter.', 'symptoms': {'oil_filter_dp': 'High'}}}, {'lo_system': {'fault_id': 'LOP-P-3', 'fault_name': 'Loss of pressure due to Pump anomaly.', 'fault_status': 'Inactive'}}, {'lo_system': {'fault_id': 'LOC-CO-4', 'fault_name': 'Loss of cooling due to Cooler Anomaly', 'fault_status': 'Active', 'severity': 'Serious', 'causes': 'Cooler failure. Cooler fouling. CW temperature anomaly. Sensor bias or drift.', 'effects': 'Oil instability. Bearing overheating. LO varnishing.', 'actions': 'Check the calibration of sensor. Check cooling water supply pressure. Open both coolers and stabilize temperature. If malfunction of one cooler is suspected, isolate and inspect it. Line walk the system to check for leaks. Check cooling water pumps for blockages, ensure strainer is clean.', 'symptoms': {'lo_header_temperature': 'High', 'delta_temperature_lo_tank_vs_lo_cooler_discharge': 'High'}}}, {'lo_system': {'fault_id': 'LOC-AC-5', 'fault_name': 'Loss of cooling Due to Fan-Motor Issue', 'fault_status': 'Active', 'severity': 'Important', 'causes': 'Unable to deliver air to the cooler', 'effects': 'Oil instability. Bearing overheating.', 'actions': 'Offline: Check the Fan and Motor/coupling/belt Integrity and rectify.', 'symptoms': {'lo_header_temperature': 'High', 'air_cooler_fan_1_run_status': 'OFF', 'air_cooler_fan_2_run_status': 'OFF'}}}, {'performance': {'fault_id': 'PER-1', 'fault_name': 'Comp Inlet Supply anomaly', 'fault_status': 'Active', 'severity': 'Important', 'causes': 'Onstream equipment like suction scrubber etc issue, Pipe line leak or jam, Suction strainer jam or leakage. Sensor bias or drift', 'effects': 'Process Upsets in the downstream assets and the compressor', 'actions': 'Check calibration of sensor. Assess of leaks/jam in the upstream equipment or pipe line or Suction strainers etc.', 'symptoms': {'suction_flow': 'High', 'compressor_inlet_temperature': 'Normal', 'compressor_inlet_pressure': 'Normal'}}}, {'performance': {'fault_id': 'PER-2', 'fault_name': 'Inlet Filter Anomaly', 'fault_status': 'Active', 'severity': 'Serious', 'causes': 'Filter jam/Choke. Sensor bias or drift', 'effects': 'Inlet pressure change leading to process upsets', 'actions': 'Check the calibration of sensor. Change over the filter if standby is available and replace the filter.', 'symptoms': {'inlet_filter_dp': 'High'}}}, {'performance': {'fault_id': 'PER-3', 'fault_name': 'Compressor Performance degradation', 'fault_status': 'Inactive'}}, {'performance': {'fault_id': 'PER-4', 'fault_name': 'Liquid slugs', 'fault_status': 'Inactive'}}, {'performance': {'fault_id': 'PER-5', 'fault_name': 'Fouling / corrosion / erosion risk', 'fault_status': 'Active', 'severity': 'Serious', 'causes': 'If fouling: Soft & sticky particles in process gas (Polymerization Precipitation, liquids carryover, etc.) Unexpected gas composition change If corrosion / erosion: Compressor materials incompatible with gas Hard & abrasive particles in process gas Online compressor washing Unexpected gas composition change', 'effects': 'Progressive contamination of impeller blades, distortion of aerodynamic characteristics, degradation of compressor performance curve. Possible unbalance if parts of deposits detach from impeller surface, possible progressive obstruction of balance line over time, with consequent axial thrust increase. If corrosion / erosion: Progressive removal of impeller / volute / diffuser material, usually undetected until a piece of the impeller fails, detaches and creates an unbalance and potential damage to gaspath / flow obstruction. Possible alteration of the impeller blades shapes with consequent aerodynamic change inside operating range. Possible degradation of labys with consequent permanent efficiency loss and rotor behavior changes', 'actions': 'If fouling: Short term; Wash compressor if possible. Long term, investigate application of coating on affected gas path. Change gas inlet Temp. Borescope inspection at opportunity. If corrosion / erosion: Replace corroded parts with better material grade. In case of erosion consider coating of gas path. Borescope at opportunity.', 'symptoms': {'efficiency_deviation_expected_actual': 'High'}}}, {'performance': {'fault_id': 'PER-6', 'fault_name': 'IGV/Suction throttle valve malfunction', 'fault_status': 'Inactive'}}, {'performance': {'fault_id': 'PER-7', 'fault_name': 'Interstage Cooler anomaly', 'fault_status': 'Inactive'}}, {'performance': {'fault_id': 'PER-8', 'fault_name': 'Interstage Separator anomaly', 'fault_status': 'Active', 'severity': 'Important', 'causes': 'Separator / scrubber internal damage, separator drain line choke, separator mesh damage, separator / line leakage, separator / line blockage.', 'effects': 'Ineffective moisture separation from the process gas leading to liquid sludge ingress and subsequently corrosion in line, compressors casings, thus damage to internals.', 'actions': 'Check Separator / scrubbers internals. Check drain line of the separator. Check the transmitter.', 'symptoms': {'interstage_separator_level': 'High'}}}, {'transmission': {'fault_id': 'GBB-1', 'fault_name': 'LSS GB DE RB anomaly', 'fault_status': 'Active', 'severity': 'Important', 'causes': 'Bush/Pad wear and tear Increase in Brg Clearance Mulitple Surge Events Electrical Discharge Liquid Slugs Ingession, bearing aging.Sensor bias or drift', 'effects': 'Bearing temperatures high,  Bearing damage, temp high trip of comp', 'actions': 'Check the calibration of sensor. Investigate with high frequency vibration analysis. Assess likely cause and time to fail(trip) if intervention not possible. Intervention options; reduce speed, Parts availability. Check the trends to establish if its either both X and Y probes or one. Inspect bearing for the following, wiping, internal clearances, oil coking / hot spots. Change bearing if required.', 'symptoms': {'lss_de_radial_vibration_overall_x': 'High', 'lss_de_radial_vibration_overall_y': 'Normal', 'lss_nde_radial_vibration_overall_x': 'Normal', 'lss_nde_radial_vibration_overall_y': 'Normal', 'lss_de_radial_bearing_temperature_a': 'Normal', 'lss_de_radial_bearing_temperature_b': 'Normal', 'lss_de_casing_vibration': 'Normal', 'lss_nde_casing_vibration': 'Normal'}}}, {'transmission': {'fault_id': 'GBB-2', 'fault_name': 'LSS GB NDE RB anomaly', 'fault_status': 'Inactive'}}, {'transmission': {'fault_id': 'GBB-3', 'fault_name': 'HSS GB DE RB anomaly', 'fault_status': 'Active', 'severity': 'Medium', 'causes': 'Bush/Pad wear and tear Increase in Brg Clearance Mulitple Surge Events Electrical Discharge Liquid Slugs Ingession, bearing aging.Sensor bias or drift', 'effects': 'Bearing temperatures high,  Bearing damage, temp high trip of comp', 'actions': 'Check the calibration of sensor. Investigate with high frequency vibration analysis. Assess likely cause and time to fail(trip) if intervention not possible. Intervention options; reduce speed, Parts availability. Check the trends to establish if its either both X and Y probes or one. Inspect bearing for the following, wiping, internal clearances, oil coking / hot spots. Change bearing if required.', 'symptoms': {'hss_de_radial_vibration_overall_x': 'High', 'hss_de_radial_vibration_overall_y': 'Normal', 'hss_nde_radial_vibration_overall_x': 'Normal', 'hss_nde_radial_vibration_overall_y': 'Normal', 'hss_de_radial_bearing_temperature_a': 'Normal', 'hss_de_radial_bearing_temperature_b': 'Normal', 'hss_de_casing_vibration': 'Normal', 'hss_nde_casing_vibration': 'Normal'}}}, {'transmission': {'fault_id': 'GBB-4', 'fault_name': 'HSS GB NDE RB anomaly', 'fault_status': 'Inactive'}}, {'transmission': {'fault_id': 'GBB-5', 'fault_name': 'LSS Shaft anomaly', 'fault_status': 'Inactive'}}, {'transmission': {'fault_id': 'GBB-6', 'fault_name': 'HSS Shaft anomaly', 'fault_status': 'Inactive'}}, {'transmission': {'fault_id': 'GBB-7', 'fault_name': 'LSS GB thrust bearing anomaly', 'fault_status': 'Active', 'severity': 'Important', 'causes': 'Axial float issue in driver or driven Pad overload due to misalignment. Electrical discharge Pad pivot wear, Axial float change of the gear box, Collar wear. Coupling issue (gear coupling lock or diaphragm coupling pre-stretch).Sensor bias or drift', 'effects': 'High vibration. Increase of brg clearance. Seal leakage. Overload. Babbitt failure Bearing/rotor damage Oil film instability', 'actions': 'Check if the lube oil header temp, pressure and quality has not altered (if lube oil system is available). Assess likely cause and time to trip if intervention not possible. Check calibration of sensor. Intervention options; reduce thrust load. Ensure parts availability. Check axial vibration trends to establish if the driver or driven has change in axial thrust and potentially damaged/wiped the pads. If required inspect the thrust pads and collar to check for damage / wiping. Carry out a bump check to establish what float is in the machine, compare to previous overhaul report for measurement. Check the gear coupling/pre-stretch diaphragm coupling.', 'symptoms': {'lss_thrust_bearing_active_side_gap': 'High', 'lss_thrust_bearing_inactive_side_gap': 'Normal', 'lss_thrust_bearing_active_side_temp': 'Normal', 'lss_thrust_bearing_inactive_side_temp': 'Normal'}}}, {'transmission': {'fault_id': 'GBB-8', 'fault_name': 'HSS GB thrust bearing anomaly', 'fault_status': 'Inactive'}}, {'dry_gas_seal_system': {'fault_id': 'DGS-1', 'fault_name': 'Primary seal gas filter anomaly', 'fault_status': 'Active', 'severity': 'Serious', 'causes': 'Jammed filter, filter internal damage, filter leakage. Sensor bias or drift.', 'effects': 'Large filter DP will lead to larger seal pressure. Moreover, dirty process gas may entrain the DGS, thus damaging its internals.', 'actions': 'Check the calibration of sensor. Check the filter efficiency and change to standby the filter if required. Repair/replace the filter internals.', 'symptoms': {'dp_over_seal_gas_filter': 'High'}}}, {'dry_gas_seal_system': {'fault_id': 'DGS-2', 'fault_name': 'Buffer gas filter anomaly', 'fault_status': 'Inactive'}}, {'dry_gas_seal_system': {'fault_id': 'DGS-3', 'fault_name': 'PDCV malfunction', 'fault_status': 'Active', 'severity': 'Medium', 'causes': 'Internal valve packing leak Jamming Contamination Internal valve component failure, Valve set point loss. Sensor bias or drift', 'effects': 'Valve cannot maintain DP setpoint Excessive flow through inboard laby towards primary seal, causing primary seal failure.', 'actions': 'Check the calibration of sensor. Check valve set point. Check valve internals for any damage, and repair/replace if necessary. Conduct the PDCV control loop function test.', 'symptoms': {'reference_line_dp': 'High', 'pdcv_valve_opening': 'Normal'}}}, {'dry_gas_seal_system': {'fault_id': 'DGS-4', 'fault_name': 'Outboard Seal Malfunction', 'fault_status': 'Inactive'}}, {'dry_gas_seal_system': {'fault_id': 'DGS-5', 'fault_name': 'Inboard Seal malfunction', 'fault_status': 'Inactive'}}, {'dry_gas_seal_system': {'fault_id': 'DGS-6', 'fault_name': 'Primary seal temperature anomaly', 'fault_status': 'Active', 'severity': 'Important', 'causes': 'Process / Primary Seal Chamber Separation Laby Failure Seal gas supply PDV failure Primary seal gas below dew point Lack of separation gas Seal gas superheater malfunction. Sensor bias or drift.', 'effects': 'Seals contamination, fouling: increased risk of seals failure.', 'actions': 'Check calibration of sensor. Monitor seal leakage. Check integrity of seal gas supply PDV. Check superheater functionality if available. Check separation gas. Check seal supply filters for damage and are fitted correctly.', 'symptoms': {'primary_seal_gas_supply_temperature': 'High'}}}, {'dry_gas_seal_system': {'fault_id': 'DGS-7', 'fault_name': 'Primary seal gas supply anomaly', 'fault_status': 'Inactive'}}, {'dry_gas_seal_system': {'fault_id': 'DGS-8', 'fault_name': 'Buffer gas supply anomaly', 'fault_status': 'Active', 'severity': 'Medium', 'causes': 'PCV Failure in buffer gas line Line Blockage System Leakage. Sensor bias or drift.', 'effects': 'Primary Seal gas to atmospheric vent Possible loss of containment.', 'actions': 'Check the calibration of sensor. Check N2 supply system for any leaks or damage. Ensure upstream and downstream PSVs, check valves, transmitters are all working correctly. Inspect PCV and check functionality. Replace Filters.', 'symptoms': {'buffer_gas_supply_pressure_flow': 'High', 'secondary_supply_pcv_opening': 'Normal', 'buffer_gas_pcv_opening': 'Normal'}}}]",
+    "error": ""
+}
