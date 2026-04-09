@@ -21,7 +21,7 @@ app.config["JWT_SECRET_KEY"] = os.getenv(
     "this_is_a_very_long_random_secret_key_1234567890"
 )
 
-app.config["JWT_ACCESS_TOKEN_EXPIRES"] = timedelta(seconds=10)  # ⏳ for testing
+app.config["JWT_ACCESS_TOKEN_EXPIRES"] = timedelta(seconds=60)  # ⏳ for testing
 
 jwt = JWTManager(app)
 
@@ -34,7 +34,7 @@ def check_if_token_revoked(jwt_header, jwt_payload):
 
 
 # ================= LOGIN API =================
-@app.route("/login", methods=["POST"])
+@app.route("/login", methods=["POST","GET"])
 def login():
     try:
         data = request.get_json()

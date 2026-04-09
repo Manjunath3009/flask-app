@@ -85,6 +85,23 @@ git push
 
 ---
 
+
+
+---
+
+### Git push and commit from vscode directly using gitlens
+
+```bash
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+git config --global user.email manju3009.m@gmail.com
+git config --global user.name Manjunath3009
+
+```
+
+---
+
 ### 🔄 Update README Changes
 
 ```bash
